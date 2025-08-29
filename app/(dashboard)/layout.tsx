@@ -112,7 +112,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
               <div id="mobile-sidebar-toggle">
                 <MobileSidebarToggle onToggle={setMobileSidebarOpen} isOpen={mobileSidebarOpen} />
               </div>
-              <h1 className="text-primary font-bold text-xl">Your Logo</h1>
+              <h1 className="text-primary font-bold text-xl">Crypto X</h1>
             </div>
 
             <div className="relative hidden sm:block">

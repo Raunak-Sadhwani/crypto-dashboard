@@ -1,10 +1,11 @@
 "use client"
 
-import PortfolioStats from "@/components/portfolio-stats"
-import OrderbookTrades from "@/components/orderbook-trades"
-import ExploreMarket from "@/components/explore-market"
-import Watchlist from "@/components/watchlist"
-import MarketTrades from "@/components/market-trades"
+import PortfolioStats from "@/components/portfolio-stats-new"
+import OrderbookTrades from "@/components/orderbook-trades-new"
+import ExploreMarket from "@/components/explore-market-new"
+import Watchlist from "@/components/watchlist-new"
+import MarketTrades from "@/components/market-trades-new"
+import ApiStatus from "@/components/api-status"
 
 export default function Dashboard() {
   return (
@@ -21,6 +22,9 @@ export default function Dashboard() {
           <MarketTrades />
         </div>
       </div>
+      
+      {/* API Status Indicator */}
+      <ApiStatus />
     </div>
   )
 }
